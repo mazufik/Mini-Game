@@ -1,0 +1,2 @@
+Mini Game ini adalah sebuah game Suwit Gunting Batu Kertas yang dibangun dengan HTML, CSS dan Javascript.
+Pembuatan aplikasi ini berdasarkan tutorial yang saya dapat dari channel youtube bang Dea Afrizal.

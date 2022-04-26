@@ -1,0 +1,56 @@
+:root{
+    box-sizing: border-box;
+}
+
+html, body, *{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    height: 100vh;
+}
+
+.sumary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 3px solid blanchedalmond;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.option{
+    width: 30%;
+    padding: 10px 15px;
+    margin: 25px;
+    text-align: center;
+    font-size: 48px;
+    background-color: bisque;
+}
+
+.option:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+
+}
